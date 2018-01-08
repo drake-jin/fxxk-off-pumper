@@ -1,0 +1,22 @@
+{
+  "name": "fuck-off-pumper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_PATH=src nodemon src/index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "eslint": "^4.15.0",
+    "moment": "^2.20.1",
+    "query-string": "^5.0.1",
+    "redis": "^2.8.0",
+    "websocket": "^1.0.25",
+    "ws": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}

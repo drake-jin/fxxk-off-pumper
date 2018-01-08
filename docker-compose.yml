@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  redis:
+    container_name: redis-fuck-off-pumper
+    image: redis
+    ports:
+      - 63799:6379
